@@ -1,0 +1,30 @@
+{
+  "name": "Trello_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kinyapina/Trello_js.git",
+  "author": "Yekaterina Kinyapina <kinyapina.katya28@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-jest": "^29.7.0",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "core-js-webpack-plugin": "^1.0.3",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
