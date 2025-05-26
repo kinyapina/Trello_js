@@ -1,4 +1,4 @@
-name: trello
+name: Trello_js
 
 on:
   push:
